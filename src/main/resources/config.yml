@@ -1,0 +1,17 @@
+chanceFormat: "###.##"
+webHook:
+  url: ""
+  embed:
+    color: 13319742
+    title: "Test ChatFilter"
+    body:
+      - "**Chatfilter**"
+      - "%word% %probability% %player%"
+punishment:
+  - "kick %player% Chatfilter"
+words:
+  "fuck": 100
+messages:
+  blocked: "&cYou've alerted the chat filter!"
+  view: "&e&l[ChatFilter] %username%: &f%message%"
+enableBypass: true
